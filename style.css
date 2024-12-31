@@ -1,0 +1,110 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html, body{
+    height: 100vh;
+    width: 100vw;
+    font-family: poppins;
+}
+header{
+    height: 3%;
+    background-color: black;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+header > p{
+    font-size: 10px;
+}
+p > a{
+    text-decoration: none;
+    color: white;
+}
+nav{
+    height: 7%;
+    padding: 0 6rem;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: black ;
+}
+.part_1{
+    display: flex;
+    align-items: center;
+    gap: 30px;
+}
+.part_1 > a{
+    font-size: 13px;
+    text-decoration: none;
+    color: white;
+}
+.part_1 > a:hover{
+    color: #bf212b;
+}
+.logo > h1{
+    font-family: cursive;
+    font-weight: 500;
+}
+.part_2{
+    display: flex;
+    gap: 30px;
+}
+.part_2 >i{
+    font-size: 20px;
+    font-weight: 100;
+    cursor: pointer;
+}
+.part_2 >i:hover{
+    color: #bf212b;
+}
+.main{
+    height: 90%;
+    padding: 0 6rem;
+    display: flex;
+    align-items: center;
+    background-image: url(image/121624-50offholidayhp_desktop_1920x850_08ac2f12-66c6-4b23-ab14-f0e4209e28fb.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.content{
+    height: 35%;
+    width: 40%;
+    color: white;
+    padding: 1rem;
+    display: flex;
+    gap: 20px;
+    flex-direction: column;
+    justify-content: space-evenly;
+    margin-bottom: 20%;
+}
+
+.content > p{
+    font-weight: 500;
+}
+.content > h1{
+    line-height: 1em;
+    font-size: 46px;
+}
+.content > h5{
+    width: 75%;
+    font-size: 15px;
+}
+.content > button{
+    border: 2px solid white;
+    background-color: transparent;
+    width: 25%;
+    color: white;
+    cursor: pointer;
+    border-radius: 10px;
+    font-weight: 600;
+    padding: 10px 10px;
+}
+.content > button:hover{
+    background-color: white;
+    color: black;
+}
